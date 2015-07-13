@@ -1,4 +1,4 @@
-var key = 'VR2MEFMIJFNV4FMEE';
+var key = ''; // Your EchoNest API key here!
 
 var tapCount = 0;
 var BPM = 0;
