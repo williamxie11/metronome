@@ -1,0 +1,78 @@
+html, body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	font-size: 12px;
+}
+
+.title {
+	font-size: 32px;
+}
+
+.BPM {
+	font-size: 28px;
+}
+
+.song-details {
+	margin-top: 50px;
+	font-size: 14px;
+	font-weight: light;
+}
+
+#song-name {
+	padding: 2px;
+	font-size: 16px;
+}
+
+#song-artist {
+	padding-top: 3px;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+
+.album-image {
+	width: 200px;
+	height: 200px;
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 5px #999;
+}
+
+.instructions {
+	margin-top: 50px;
+	font-size: 12px;
+}
+
+.drum {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	
+	background: black;
+	border-radius: 50%;
+	opacity: 0.8;
+	transition: margin 0.1s;
+}
+
+.drum-left {
+	margin-right: 30px;
+}
+
+.drum-right { 
+	margin-left: 30px;
+}

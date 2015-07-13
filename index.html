@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Metronome</title>
+  		<meta charset="utf-8"></meta>
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<!-- CSS -->
+		<link href="./css/animate.css" rel="stylesheet"></link>
+		<link href="./css/main.css" rel='stylesheet'></link>
+	</head>
+	<body>
+		<header>
+			<div class="title">METRONOME</div>
+		</header>
+		<section class="beat-info">
+			<div class="drum"></div>
+			<div class="BPM">0</div>
+		</section>
+		<section class="song-details">
+			<div id="song-name"></div>
+			<div id="song-artist"></div>
+			<div id="song-album"></div>
+		</section>
+		<section class="instructions">
+			<p>Tap SPACEBAR to a beat</p>
+			<p>Press F to start/skip a song</p>
+			<p>Press R to restart</p>
+			<p>Each 30 second song preview will continue to play based on the BPM</p>
+		</section>
+		<footer>
+			Made by <a target="_blank" href="http://github.com/williamxie11">William Xie</a>
+		</footer>
+		<audio id="metronome-tap" src="./assets/metronome.wav" type="audio/wav"></audio>
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+		<script src="./js/index.js"></script>
+		<script src="./js/controllers.js"></script>
+			-->
+		<script src="./js/metronomeService.js"></script>
+		<script src="./js/metronome.js"></script>
+	</body>
+</html>
